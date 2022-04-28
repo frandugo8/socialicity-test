@@ -1,0 +1,26 @@
+
+.searcher {
+  background-color: white;
+  height: 5rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  padding: .6rem .8rem .6rem .8rem;
+  box-sizing: border-box;
+
+  &__input {
+    flex: 1;
+    border: 0;
+    padding: 0 .8rem 0 1.2rem;
+    outline: none;
+    font-size: 1.5rem;
+  }
+
+  .dropDownButton {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: red;
+    position: relative;
+    cursor: pointer;
+  }
+}
